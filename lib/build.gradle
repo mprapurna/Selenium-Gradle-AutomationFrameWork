@@ -30,9 +30,9 @@ tasks.named('test') {
      
      useTestNG() {
      useDefaultListeners = true
-        includeGroups 'smoke', 'sanity'
-        excludeGroups 'regression'
+       /* includeGroups 'smoke', 'sanity'
+        excludeGroups 'regression'*/
         reports.html.enabled = false
-         listeners << 'com.listeners.TestListener'
+         //listeners << 'com.listeners.TestListener'
     }
 }
